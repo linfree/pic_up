@@ -54,7 +54,7 @@ class MyFrame(wx.Frame):
 
     def __init__(self, *args, **kw):
         # ensure the parent's __init__ is called
-        super(HelloFrame, self).__init__(*args, **kw)
+        super(MyFrame, self).__init__(*args, **kw)
         # create a panel in the frame
         self.makeBase()
         # create a menu bar
